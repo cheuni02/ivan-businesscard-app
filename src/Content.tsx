@@ -30,17 +30,6 @@ const Content = () => {
         </div>
       </div>
     </BrowserRouter>
-    // <div className="content">
-    //   <Router>
-    //     <Routes>
-    //       <Route path="/" element={<Home />} />
-    //       <Route path="/experience" element={<Experience />} />
-    //       <Route path="/education" element={<Education />} />
-    //       <Route path="/skills" element={<Skills />} />
-    //       <Route path="/contact" element={<Contact />} />
-    //     </Routes>
-    //   </Router>
-    // </div>
   );
 };
 
