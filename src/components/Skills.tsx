@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Skills = () => {
   return (
     <div className="skills">
-      <h2>Skills</h2>
+      <h2>Skills Page</h2>
       <ul>
         <li>JavaScript</li>
         <li>React</li>

@@ -1,35 +1,21 @@
-.App {
+/* App.css */
+.app-container {
   display: flex;
+  height: 100vh;
+  /* Full viewport height */
 }
 
 .sidebar {
-  width: 200px;
-  background-color: #f4f4f4;
+  width: 250px;
+  /* Set a fixed width for the sidebar */
+  background-color: #f8f9fa;
   padding: 20px;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
-
-.sidebar nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.sidebar nav ul li {
-  margin: 10px 0;
-}
-
-.sidebar nav ul li a {
-  text-decoration: none;
-  color: #333;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  /* Adds a subtle shadow */
 }
 
 .content {
-  margin-left: 220px;
+  flex: 1;
+  /* Makes content take the remaining space */
   padding: 20px;
-}
-
-.header, .experience, .education, .skills, .contact {
-  margin-bottom: 20px;
 }

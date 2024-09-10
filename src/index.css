@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+}
+
+.Sidebar {
+  width: 200px;
+  /* Additional styling for the sidebar */
+}
+
+.Content {
+  flex: 1;
+  padding: 20px;
+  /* Additional styling for the content */
+}
+
+/* Optional: Styling for active NavLink */
+.Sidebar .active {
+  font-weight: bold;
+}
