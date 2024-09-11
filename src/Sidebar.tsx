@@ -1,25 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import SidebarLink from "./components/SidebarLink";
 
 const Sidebar = () => {
   return (
-    <div className="sidebar">
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/experience">Experience</Link>
-        </li>
-        <li>
-          <Link to="/education">Education</Link>
-        </li>
-        <li>
-          <Link to="/skills">Skills</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
+    <div className="sidebar flex-column">
+      <a href="d-flex align-items-center">
+        <i className="sidebar-icon bi bi-emoji-smile-fill fs-5 me-3"></i>
+        <span className="fs-10">Ivan Cheung</span>
+      </a>
+      <hr className="text-secondary mt-2" />
+      <ul className="nav flex-column">
+        <SidebarLink linkLabel="Home" linkIcon="house-door" />
+        <SidebarLink linkLabel="Experience" linkIcon="eyeglasses" />
+        <SidebarLink linkLabel="Education" linkIcon="book" />
+        <SidebarLink linkLabel="Skills" linkIcon="tools" />
+        <SidebarLink linkLabel="Contact" linkIcon="telephone-fill" />
       </ul>
     </div>
   );

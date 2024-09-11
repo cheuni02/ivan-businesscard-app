@@ -11,6 +11,7 @@ import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Sidebar from "./Sidebar";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Content = () => {
   return (
