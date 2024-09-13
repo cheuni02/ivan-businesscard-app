@@ -1,6 +1,6 @@
 .sidebar {
   height: 100%;
-  width: 150px;
+  width: 200px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -14,25 +14,40 @@
   background-color: black;
 }
 
+.sidebar ul li span{
+  color: rgb(101,101,101);
+}
+
 .sidebar ul li:hover {
-  background-color: blue;
+  background-color: rgb(5, 4, 4);
 }
 
 .sidebar-icon {
-  color: white;
+  color: rgb(101, 101, 101);
   font-size: 20px;
   margin-right: 10px;
   margin-left: 10px;
 }
 
-/* .home {
-  padding: 10px 15px;
-  text-align: center;
-  text-decoration: none;
-} */
+.app-container {
+  margin-left: 185px;
+  font-family: 'Courier New', serif;
+}
 
 .contents {
-  margin-left: 200px;
+  color: white;
   padding: 16px;
   height: 1000px;
+  background-color: dimgray;
+}
+
+.social-icon {
+  color: rgb(101, 101, 101);
+  font-size: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.social-links {
+  text-align: center
 }

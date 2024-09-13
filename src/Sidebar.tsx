@@ -1,17 +1,25 @@
 import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import SidebarLink from "./components/SidebarLink";
+import SocialIcon from "./components/SocialIcon";
 
 const Sidebar = () => {
   return (
-    <div className="sidebar flex-column">
-      <a href="d-flex align-items-center">
-        <i className="sidebar-icon bi bi-emoji-smile-fill fs-5 me-3"></i>
-        <span className="fs-10">Ivan Cheung</span>
-      </a>
+    <div className="sidebar flex-column align-items-center">
+      <div className="social-links align-items-center">
+        <SocialIcon icon="github" link="https://github.com/cheuni02" />
+        <SocialIcon
+          icon="instagram"
+          link="https://www.instagram.com/ivancheung85"
+        />
+        <SocialIcon
+          icon="facebook"
+          link="https://www.facebook.com/ivan.cheung.7167"
+        />
+      </div>
       <hr className="text-secondary mt-2" />
       <ul className="nav flex-column">
-        <SidebarLink linkLabel="Home" linkIcon="house-door" />
+        <SidebarLink linkLabel="Profile" linkIcon="file-earmark-person-fill" />
         <SidebarLink linkLabel="Experience" linkIcon="eyeglasses" />
         <SidebarLink linkLabel="Education" linkIcon="book" />
         <SidebarLink linkLabel="Skills" linkIcon="tools" />

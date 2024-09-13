@@ -5,11 +5,11 @@ import {
   Routes,
   BrowserRouter,
 } from "react-router-dom";
-import Home from "./components/Home";
-import Experience from "./components/Experience";
-import Education from "./components/Education";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
+import Profile from "./pages/Profile";
+import Experience from "./pages/Experience";
+import Education from "./pages/Education";
+import Skills from "./pages/Skills";
+import Contact from "./pages/Contact";
 import Sidebar from "./Sidebar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -22,7 +22,7 @@ const Content = () => {
         </div>
         <div>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Profile />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/education" element={<Education />} />
             <Route path="/skills" element={<Skills />} />
