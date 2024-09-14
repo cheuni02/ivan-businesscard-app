@@ -12,6 +12,7 @@ import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import Sidebar from "./Sidebar";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Projects from "./pages/Projects";
 
 const Content = () => {
   return (
@@ -25,6 +26,7 @@ const Content = () => {
             <Route path="/" element={<Profile />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/education" element={<Education />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

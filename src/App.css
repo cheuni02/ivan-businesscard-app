@@ -5,44 +5,40 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: dimgrey;
   overflow-x: hidden;
   padding-top: 20px;
 }
+
 .sidebar ul {
   padding: 0px !important;
-  background-color: black;
+  background-color: dimgrey;
 }
 
 .sidebar ul li span{
-  color: rgb(101,101,101);
-}
-
-.sidebar ul li:hover {
-  background-color: rgb(5, 4, 4);
+  color: rgb(17, 23, 43);
 }
 
 .sidebar-icon {
-  color: rgb(101, 101, 101);
+  color: white;
   font-size: 20px;
   margin-right: 10px;
   margin-left: 10px;
 }
 
 .app-container {
-  margin-left: 185px;
+  margin-left: 200px;
   font-family: 'Courier New', serif;
+  background-color: white;
 }
 
 .contents {
-  color: white;
-  padding: 16px;
-  height: 1000px;
-  background-color: dimgray;
+  /* text-align: center; */
+  color: rgb(20, 19, 19);
 }
 
 .social-icon {
-  color: rgb(101, 101, 101);
+  color: white;
   font-size: 20px;
   margin-right: 5px;
   margin-left: 5px;

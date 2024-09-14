@@ -3,16 +3,26 @@ import React from "react";
 const Profile = () => {
   return (
     <div className="contents profile">
-      <h2>Ivan Cheung</h2>
-      <h3>
-        <i>Professional: Test Automation </i>
-        <br />
-        <i>Training: Cyber Security </i> <br />
-        <i>Hobbies: Web Development </i>
-      </h3>
+      <h2>Ivan Cheung*</h2>
       <p>
-        Welcome to my page. Navigate through the sections to know more about my
-        experience, skills, education, and contact information.
+        Senior test automation engineer with 6+ years experience.
+        Specialises in: 
+      </p>
+      <p>
+        Creating test harnesses
+        <ul>
+          <li>Cypress.io</li>
+          <li>Playwright</li>
+          <li>Selenium Webdriver</li>
+        </ul>
+        Implementing a QA ecoysystem
+        <ul>
+          <li>Acceptance Criteria</li>
+          <li>Test planning/ Strategy</li>
+          <li>Test repository/ Bug Management</li>
+          <li>Test Automation</li>
+          <li>CI/CD</li>
+        </ul>
       </p>
     </div>
   );

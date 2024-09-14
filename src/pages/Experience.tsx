@@ -3,9 +3,12 @@ import React from "react";
 const Experience = () => {
   return (
     <div className="contents experience">
-      <h2>Experience Page</h2>
-      <p>Software Tester at XYZ Company</p>
-      <p>Software Tester at ABC Company</p>
+      <h2>Worked at ... </h2>
+
+      <p>Tipalti</p>
+      <p>Beamery</p>
+      <p>British Broadcasting Corporation</p>
+      <p>Sky</p>
     </div>
   );
 };
