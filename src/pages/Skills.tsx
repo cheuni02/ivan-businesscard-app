@@ -1,6 +1,6 @@
 import React from "react";
 import CategoryAndBulletPoints from "../components/CategoryAndBulletPoints";
-import { skillsMap } from "../dataMaps/skillsMap";
+import { skillsMap } from "../dataMaps";
 
 const Skills = () => {
   return (
