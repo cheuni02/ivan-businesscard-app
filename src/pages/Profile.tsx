@@ -15,7 +15,7 @@ const Profile = () => {
           <li>Playwright</li>
           <li>Selenium Webdriver</li>
         </ul>
-        Implementing a QA ecoysystem
+        Implementing a QA ecosystem
         <ul>
           <li>Acceptance Criteria</li>
           <li>Test planning/ Strategy</li>

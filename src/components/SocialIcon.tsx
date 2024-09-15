@@ -16,4 +16,4 @@ const SocialIcon = ({ link, icon }: SocialIconProps) => {
   );
 }
 
-export default SocialIcon
+export default SocialIcon;
