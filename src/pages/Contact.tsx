@@ -1,13 +1,16 @@
 import React from "react";
+import { contactMap } from "../dataMaps/contactMap";
+import { CategoryAndBulletPoints } from "../components";
 
 const Contact = () => {
   return (
     <div className="contents contact">
       <h2>Get In Touch! ...</h2>
-      <ul>
-        <li>ivan.cheung18@outlook.com</li>
-        <li>social media links on the sidebar</li>
-      </ul>
+      {contactMap.map(({ label, contactMethod }) => {
+        return (
+          <CategoryAndBulletPoints category={label} bulletPoints={contactMethod} />
+        );
+      })}
     </div>
   );
 };

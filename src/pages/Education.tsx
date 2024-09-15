@@ -1,11 +1,13 @@
 import React from "react";
+import { educationMap } from "../dataMaps/educationMap";
 
 const Education = () => {
   return (
     <div className="contents education">
       <h2>Educated at ...</h2>
-      <p>Brunel University</p>
-      <p>Kingston College</p>
+      {educationMap.map((school) => {
+        return <p>{school}</p>;
+      })}
     </div>
   );
 };
