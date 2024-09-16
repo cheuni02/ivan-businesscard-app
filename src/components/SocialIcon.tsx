@@ -9,7 +9,7 @@ interface SocialIconProps {
 const SocialIcon = ({ link, icon }: SocialIconProps) => {
   return (
     <span className="social-icon">
-      <Link to={link}>
+      <Link to={link} target="_blank" rel="noopener noreferrer">
         <i className={`social-icon bi-${icon}`}></i>
       </Link>
     </span>
