@@ -1,13 +1,13 @@
-import { contentRoutesMap } from "./contentRoutesMap";
-import { skillsMap } from "./skillsMap";
 import { sidebarLinksMap } from "./sidebarLinksMap";
 import { socialLinksMap } from "./socialLinksMap";
+import { contentRoutesMap } from "./contentRoutesMap";
+import { skillsMap } from "./skillsMap";
 import { profileBulletPointsMap } from "./profileBulletPointsMap";
 
 export {
-  profileBulletPointsMap,
+  socialLinksMap,
   contentRoutesMap,
   skillsMap,
   sidebarLinksMap,
-  socialLinksMap,
+  profileBulletPointsMap,
 };
