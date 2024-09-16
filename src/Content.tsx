@@ -5,9 +5,7 @@ import {
   Routes,
   BrowserRouter,
 } from "react-router-dom";
-import {
-  Sidebar,
-} from "./pages";
+import { Sidebar } from "./components";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { contentRoutesMap } from "./dataMaps";
 

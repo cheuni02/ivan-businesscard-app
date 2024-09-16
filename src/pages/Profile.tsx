@@ -5,7 +5,7 @@ import CategoryAndBulletPoints from "../components/CategoryAndBulletPoints";
 const Profile = () => {
   return (
     <div className="contents profile">
-      <h2>Ivan Cheung*</h2>
+      <h2>Ivan Cheung</h2>
       <p>
         Senior test automation engineer with 6+ years experience. Specialises
         in:
